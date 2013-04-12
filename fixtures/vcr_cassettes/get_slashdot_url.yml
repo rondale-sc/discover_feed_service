@@ -1,0 +1,44 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://feediscovery.appspot.com/?url=http://slashdot.org
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - 1kpl.us/ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bm8tY2FjaGU=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9qYXZhc2NyaXB0
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAxMiBBcHIgMjAxMyAwMjo1NDo0MSBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        R29vZ2xlIEZyb250ZW5k
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        W3siaHJlZiI6ICJodHRwOi8vcnNzLnNsYXNoZG90Lm9yZy9TbGFzaGRvdC9z
+        bGFzaGRvdCIsICJ0eXBlIjogImFwcGxpY2F0aW9uL3Jzcyt4bWwiLCAicmVs
+        IjogImFsdGVybmF0ZSIsICJ0aXRsZSI6ICJTbGFzaGRvdCBSU1MifV0=
+    http_version: 
+  recorded_at: Fri, 12 Apr 2013 02:54:41 GMT
+recorded_with: VCR 2.4.0
