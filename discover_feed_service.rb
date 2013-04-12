@@ -32,5 +32,3 @@ class DiscoverFeedService
     JSON.parse(response.body_str).map {|e| OpenStruct.new e}
   end
 end
-
-__END__
